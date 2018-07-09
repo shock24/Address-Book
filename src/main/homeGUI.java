@@ -175,7 +175,7 @@ public class homeGUI extends javax.swing.JFrame {
              d1[i].lImage.setIcon(icon);        
         i++;
         if(i>9){
-            Dimension d1= new Dimension(1230,displayPanel.getPreferredSize().height+75);
+            Dimension d1= new Dimension(1230,(count1+1)*75);
             displayPanel.setPreferredSize(d1);
             displayInternal.setPreferredSize(d1);
         }
@@ -241,7 +241,7 @@ public class homeGUI extends javax.swing.JFrame {
              d1[i].lImage.setIcon(icon);        
         i++;
         if(i>9){
-            Dimension d1= new Dimension(1230,displayPanel.getPreferredSize().height+75);
+            Dimension d1= new Dimension(1230,(count1+1)*75);
             displayPanel.setPreferredSize(d1);
             displayInternal.setPreferredSize(d1);
         }
@@ -266,6 +266,7 @@ public class homeGUI extends javax.swing.JFrame {
         }
         catch(Exception e){}
         d1=new display[count1];
+             
        try{
         Class.forName("com.mysql.jdbc.Driver");
         Connection con=DriverManager.getConnection("jdbc:mysql://localhost:3306/address_book", "root", "shrey");
@@ -307,7 +308,7 @@ public class homeGUI extends javax.swing.JFrame {
              d1[i].lImage.setIcon(icon);        
         i++;
         if(i>9){
-            Dimension d1= new Dimension(1230,displayPanel.getPreferredSize().height+75);
+            Dimension d1= new Dimension(1230,(count1+1)*75);
             displayPanel.setPreferredSize(d1);
             displayInternal.setPreferredSize(d1);
         }
@@ -371,7 +372,7 @@ public class homeGUI extends javax.swing.JFrame {
              d1[i].lImage.setIcon(icon);        
         i++;
         if(i>9){
-            Dimension d1= new Dimension(1230,displayPanel.getPreferredSize().height+75);
+            Dimension d1= new Dimension(1230,(count1+1)*75);
             displayPanel.setPreferredSize(d1);
             displayInternal.setPreferredSize(d1);
         }
