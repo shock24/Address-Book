@@ -1,2 +1,2 @@
-This is my fo=irst project
+This is my first project
 Please give it a look:)
