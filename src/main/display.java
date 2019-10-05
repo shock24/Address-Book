@@ -41,7 +41,7 @@ public class display extends javax.swing.JPanel {
         add(lImage, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 75, 75));
 
         bEdit.setFont(new java.awt.Font("Ubuntu", 0, 20)); // NOI18N
-        bEdit.setText("Edit");
+        bEdit.setText("EDIT");
         bEdit.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 bEditActionPerformed(evt);
